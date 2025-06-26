@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: train-bus-window
+    env: static
+    buildCommand: npm install
+    startCommand: npm start
+    staticPublishPath: .
+    envVars:
+      - key: NODE_ENV
+        value: production 

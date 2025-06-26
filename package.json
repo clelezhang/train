@@ -1,0 +1,15 @@
+{
+  "name": "train-bus-window",
+  "version": "1.0.0",
+  "description": "A bus window simulation with scrolling landscape",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -s . -l 10000"
+  },
+  "keywords": ["bus", "window", "animation", "landscape"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+} 
